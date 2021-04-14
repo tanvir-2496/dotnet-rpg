@@ -14,7 +14,7 @@ private static List<Character> character = new List<Character>{
 };
         public IActionResult Get()
         {
-            return Ok(character);
+            return Ok(character[0]);
         }
         
     }
