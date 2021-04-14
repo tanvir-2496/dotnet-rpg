@@ -9,12 +9,12 @@ namespace dotnet_rpg.Controllers
     public class CharacterController: ControllerBase
     {
 private static List<Character> character = new List<Character>{
-    new Character(),
+   // new Character(),
     new Character{Name = "Tanvir"}
 };
         public IActionResult Get()
         {
-            return Ok();
+            return Ok(character);
         }
         
     }

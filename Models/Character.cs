@@ -4,7 +4,7 @@ namespace dotnet_rpg.Models
     {
         public int Id { get; set; }
 
-        public string Name { get; set; } = "Frodo";
+        public string Name { get; set; } = "Tanvir";
 
         public int HitPoints  { get; set; } = 100;
         public int Strength { get; set; } =10;
